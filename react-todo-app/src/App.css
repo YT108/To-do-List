@@ -1,0 +1,45 @@
+.app {
+  max-width: 600px;
+  margin: 2rem auto;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.input-section input {
+  width: 70%;
+  padding: 0.5rem;
+}
+
+.input-section button {
+  padding: 0.5rem 1rem;
+  margin-left: 0.5rem;
+}
+
+.filter-section button {
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+}
+
+.task-list li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.task-list li.completed span {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.task-list li input[type="checkbox"] {
+  margin-right: 1rem;
+}
